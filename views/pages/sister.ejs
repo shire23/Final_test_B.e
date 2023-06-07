@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet" />
+    <title>Aplikasi Pendaftaran Siswa - Siswa</title>
+  </head>
+
+  <body class="bg-gray-100">
+    <!-- Navbar -->
+    <nav class="bg-blue-500 py-4">
+      <div class="container mx-auto">
+        <a href="/" class="text-white text-lg font-semibold">Aplikasi Registrasi Siswa</a>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <div class="container mx-auto mt-8">
+      <h1 class="text-2xl font-semibold mb-4"></h1>
+
+      <div class="container">
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-8">
+          <h1 class="text-2xl font-bold"></h1>
+          <a href="#" class="text-blue-500"></a>
+        </header>
+
+        <div id="login" class="mb-8">
+          <h1 class="text-2xl font-bold mb-4">Login</h1>
+          <form>
+            <div class="mb-4">
+              <label for="nama" class="block">Nama:</label>
+              <input type="text" id="nama" name="nama" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <div class="mb-4">
+              <label for="nama" class="block">tanggal lahir:</label>
+              <input type="text" id="tanggallahir" name="tanggallahir" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <div class="mb-4">
+              <label for="nama" class="block">tempat lahir:</label>
+              <input type="text" id="tempat lahir" name="tempat lahir" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <div class="mb-4">
+              <label for="nomorhp" class="block">Kelas:</label>
+              <input type="text" id="nomorhp" name="nomorhp" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <div class="mb-4">
+              <label for="nama" class="block">Alamat:</label>
+              <input type="text" id="nomorhportu" name="nomorhportu" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <div class="mb-4">
+              <label for="nama" class="block">Nomor hp:</label>
+              <input type="text" id="nomorhportu" name="nomorhportu" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <div class="mb-4">
+              <label for="nama" class="block">Nomor Hp Ortu:</label>
+              <input type="text" id="nomorhportu" name="nomorhportu" class="border rounded py-2 px-3 w-full" />
+            </div>
+
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Login</button>
+
+            <button type="submit" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Logout</button>
+          </form>
+        </div>
+
+        <!-- Tabel Daftar Siswa -->
+        <table class="w-full bg-white border border-gray-300">
+          <thead>
+            <tr>
+              <th class="py-2 px-4 border-b">Nama</th>
+              <th class="py-2 px-4 border-b">Tanggal Lahir</th>
+              <th class="py-2 px-4 border-b">tempat Lahir</th>
+              <th class="py-2 px-4 border-b">Kelas</th>
+              <th class="py-2 px-4 border-b">Alamat</th>
+              <th class="py-2 px-4 border-b">Nomor HP</th>
+              <th class="py-2 px-4 border-b">Nama Orang Tua</th>
+              <th class="py-2 px-4 border-b">Nomor HP Orang Tua</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- data siswa -->
+            <tr>
+              <td class="py-2 px-4 border-b">Doel</td>
+              <td class="py-2 px-4 border-b">2005-02-15</td>
+              <td class="py-2 px-4 border-b">Jerman</td>
+              <td class="py-2 px-4 border-b">Matematika, IPA</td>
+              <td class="py-2 px-4 border-b">Jl. Raya No. 123</td>
+              <td class="py-2 px-4 border-b">08123456789</td>
+              <td class="py-2 px-4 border-b">Juliana</td>
+              <td class="py-2 px-4 border-b">08123456788</td>
+            </tr>
+            <tr>
+              <td class="py-2 px-4 border-b">Nakusya</td>
+              <td class="py-2 px-4 border-b">2006-07-20</td>
+              <td class="py-2 px-4 border-b">Jakarta</td>
+              <td class="py-2 px-4 border-b">IPS, Bahasa</td>
+              <td class="py-2 px-4 border-b">Jl. Sudirman No. 456</td>
+              <td class="py-2 px-4 border-b">08234567890</td>
+              <td class="py-2 px-4 border-b">lyla</td>
+              <td class="py-2 px-4 border-b">08234567891</td>
+            </tr>
+
+            <tr>
+              <td class="py-2 px-4 border-b">bobi</td>
+              <td class="py-2 px-4 border-b">2004-02-15</td>
+              <td class="py-2 px-4 border-b">Padang</td>
+              <td class="py-2 px-4 border-b">Tari, IPA</td>
+              <td class="py-2 px-4 border-b">Jl. Raya No. 123</td>
+              <td class="py-2 px-4 border-b">08123456789</td>
+              <td class="py-2 px-4 border-b">Lola</td>
+              <td class="py-2 px-4 border-b">08163456788</td>
+            </tr>
+
+            <tr>
+              <td class="py-2 px-4 border-b">John Doe</td>
+              <td class="py-2 px-4 border-b">2006-01-15</td>
+              <td class="py-2 px-4 border-b">Belanda</td>
+              <td class="py-2 px-4 border-b">bahasa, IPA</td>
+              <td class="py-2 px-4 border-b">Jl. Raya No. 123</td>
+              <td class="py-2 px-4 border-b">08123456789</td>
+              <td class="py-2 px-4 border-b">Zoe</td>
+              <td class="py-2 px-4 border-b">08123476088</td>
+            </tr>
+
+            <tr>
+              <td class="py-2 px-4 border-b">tapasya</td>
+              <td class="py-2 px-4 border-b">2008-02-18</td>
+              <td class="py-2 px-4 border-b">bandung</td>
+              <td class="py-2 px-4 border-b">beladiri, IPS</td>
+              <td class="py-2 px-4 border-b">Jl. Raya No. 123</td>
+              <td class="py-2 px-4 border-b">08123456789</td>
+              <td class="py-2 px-4 border-b">jisoo</td>
+              <td class="py-2 px-4 border-b">08123456788</td>
+            </tr>
+            <!-- penutup data siswa -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>
